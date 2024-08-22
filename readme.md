@@ -33,6 +33,11 @@ Get-ChildItem env:
 
 ```powershell
 python.exe .\main.py
+CUDA is ok
+Image usual1.jpg is normal
+Image nsfw2.jpg is nsfw
+Image nsfw1.jpg is nsfw
+Time spent: 0.4680333137512207
 ```
 
 В планах:
