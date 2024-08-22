@@ -1,12 +1,14 @@
 # NSFW Image detection playground
 
 <https://huggingface.co/Falconsai/nsfw_image_detection>
+<https://pytorch.org/get-started/locally/>
+<https://developer.nvidia.com/cuda-toolkit-archive>
 
 Устанавливаем на Windows:
 
 - git
 - `git lfs install`
-- cuda <https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local>
+- cuda 12.1 (похоже идет в комплекте с torch)
 - python
 - pip
 - `pip install virtualenv`
@@ -32,3 +34,10 @@ Get-ChildItem env:
 ```powershell
 python.exe .\main.py
 ```
+
+В планах:
+
+- ~~починить работу на GPU~~
+- Упаковать в контейнер (кубер) c поддержкой GPU
+- Снять бенчмарки с GPU и с CPU
+- Написать основную логику: обработка очередей, обработка картинок по url, многопоточность, метрики
