@@ -1,0 +1,3 @@
+[submodule "saved_model"]
+	path = saved_model
+	url = https://huggingface.co/Falconsai/nsfw_image_detection
